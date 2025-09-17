@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>フォーム入力とデータ保存</title>
+  <title>同意ツール</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,11 +16,11 @@
       <label for="date">日付:</label>
       <input type="date" id="date" name="date" required>
 
-      <label for="email">メールアドレス:</label>
-      <input type="email" id="email" name="email" placeholder="メールアドレスを入力してください" required>
+      <label for="email">相手の名前:</label>
+      <input type="email" id="name" name="name" placeholder="相手の名前を入力してください" required>
 
-      <label for="message">メッセージ:</label>
-      <textarea id="message" name="message" placeholder="メッセージを入力してください" rows="4" required></textarea>
+      <label for="message">メモ:</label>
+      <textarea id="text" name="text" placeholder="メモを入力してください" rows="4" required></textarea>
 
       <button type="submit">送信</button>
     </form>
